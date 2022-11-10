@@ -11,7 +11,8 @@ def input_file(filename):
     numbers_file.close()
 
     numbers = numbers.rsplit(' ')
-    return numbers
+    numbers_int = [eval(number) for number in numbers]
+    return numbers_int
 
 
 '''
@@ -117,7 +118,6 @@ def sort_numbers(numbers):
             case "1":
                 choice_made = True
                 numbers = bubble_sort(numbers)
-                print(numbers)
             case "2":
                 choice_made = True
                 numbers = insertion_sort(numbers)
@@ -126,6 +126,7 @@ def sort_numbers(numbers):
                 numbers = merge_sort(numbers)
             case _:
                 print("Please enter the algorith number")
+    return numbers
 
 '''
     Program settings
@@ -152,6 +153,7 @@ def main():
             print(numbers)
     if (len(sys.argv) == 1):
             numbers = generate_pseoudorandom_array(ARRAY_LEGTH, GROUND_VALUE, TOP_VALUE)
+
 
 
     # Output
