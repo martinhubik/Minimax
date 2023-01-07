@@ -6,6 +6,17 @@ from random import randint
 '''
 
 def input_file(filename):
+    
+    '''Method for reading a text file for input
+
+        :param filename: name of the input file
+        :type amount: string
+        :raises: :class:`FileNotFoundError`: no file under filename is found
+
+        :returns: input numbers
+        :rtype: int array
+        
+       '''
     numbers_file = open(filename, "r")
     numbers = numbers_file.readlines()[0]
     numbers_file.close()
