@@ -1,5 +1,5 @@
 """
-Minimax
+Minimax.
 
 This module takes array of numbers and outpust lowest,
 highest number and sorted array.
