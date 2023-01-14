@@ -1,11 +1,12 @@
-import sys
-from random import randint  # pseudorandom number generator
 """
 Minimax
 
 This module takes array of numbers and outpust lowest,
 highest number and sorted array.
 """
+import sys
+from random import randint  # pseudorandom number generator
+
 #  Input operation methods
 
 
