@@ -1,7 +1,10 @@
 import sys
 from random import randint  # pseudorandom number generator
-"""This module takes array of numbers and outpust lowest, highest number and sorted array"""
-    #  Input operation methods
+"""This module takes array of numbers and outpust lowest, 
+    highest number and sorted array.
+    
+    """
+#  Input operation methods
 
 
 def input_file(filename):
