@@ -1,9 +1,8 @@
 import sys
 from random import randint  # pseudorandom number generator
-"""This module takes array of numbers and outpust lowest, 
-    highest number and sorted array.
-    
-    """
+"""This module takes array of numbers and outpust lowest,
+highest number and sorted array.
+"""
 #  Input operation methods
 
 
@@ -34,11 +33,11 @@ TOP_VALUE = 1000
 def generate_pseoudorandom_array(array_length, ground_value, top_value):
     """Method for generating pseudorandom array of integers.
 
-    :param array_length: length of generated array
+    :param: array_length: length of generated array
     :type: int
-    :param ground_value: lowest possible value of output integer
+    :param: ground_value: lowest possible value of output integer
     :type: int
-    :param top_value: highest possible value of output integer
+    :param: top_value: highest possible value of output integer
     :type: int
     :returns: numbers
     :rtype: int array
