@@ -1,6 +1,9 @@
 import sys
 from random import randint  # pseudorandom number generator
-"""This module takes array of numbers and outpust lowest,
+"""
+Minimax
+
+This module takes array of numbers and outpust lowest,
 highest number and sorted array.
 """
 #  Input operation methods
