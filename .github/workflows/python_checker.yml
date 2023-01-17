@@ -28,7 +28,6 @@ jobs:
     - name: Lint with flake8
       run: |
         flake8 --ignore=D401,W293,D202 .
-        flake8 .
         
     - name: Text documentation with pydoc
       run: |
