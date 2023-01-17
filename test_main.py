@@ -164,7 +164,7 @@ def sort_numbers(get_file_numbers):
     
     Díky níž sortujeme čísla pomocí předem definované sort
     funkce jazyka python pro kontrolu v dalších testech.
-
+    
     :param get_file_numbers:
     :return:
     """
