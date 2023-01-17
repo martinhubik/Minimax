@@ -27,7 +27,9 @@ jobs:
         pytest --doctest-modules --cov=. --cov-fail-under=66
     - name: Lint with flake8
       run: |
+        flake8 --ignore=D401,W293,D202 .
         flake8 .
+        
     - name: Text documentation with pydoc
       run: |
         if [ -f __init__.py ]
