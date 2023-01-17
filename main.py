@@ -66,10 +66,10 @@ def bubble_sort(list):
     list_lenght = len(list)
     for number in range(list_lenght - 1, 0, -1):
         for index in range(number):
-            if list[index] > list[index+1]:
+            if list[index] > list[index + 1]:
                 temp = list[index]
-                list[index] = list[index+1]
-                list[index+1] = temp
+                list[index] = list[index + 1]
+                list[index + 1] = temp
     return list
 
 
@@ -82,7 +82,7 @@ def merge_sort(list):
     :rtype: int array
     """
     if len(list) > 1:
-        mid = len(list)//2
+        mid = len(list) // 2
         left = list[:mid]
         right = list[mid:]
 
